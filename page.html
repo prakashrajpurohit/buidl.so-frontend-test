@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            serif: [""],
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .module {
+        border-left-width: 0px;
+        border-right-width: 2px;
+        border-style: solid;
+        border-image: linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0),
+            #000000,
+            rgba(0, 0, 0, 0)
+          )
+          1;
+      }
+      @media screen and (max-width: 1024px) {
+        .module {
+          border-left-width: 0px;
+          border-right-width: 0px;
+          border-bottom-width: 2px;
+          border-style: solid;
+          border-image: linear-gradient(
+              to right,
+              rgba(0, 0, 0, 0),
+              #000000,
+              rgba(0, 0, 0, 0)
+            )
+            1;
+        }
+      }
+    </style>
+  </head>
+
+  <body class="font-serif">
+    <div class="mx-[7%] lg:mx-[144px]">
+      <div class="flex mt-4 border-b-[1px] pb-3">
+        <div class="lg:w-[30%]">
+          <p
+            class="cursor-pointer text-[8px] bg-[#750ef0] inline rounded text-white px-[4px]"
+          >
+            ALPHA
+          </p>
+          <p class="cursor-pointer text-base lg:text-xl leading-[9px]">
+            buidl.so
+          </p>
+          <p class="cursor-pointer text-xl lg:text-3xl mt-3 font-medium">
+            Exa Protocol
+          </p>
+        </div>
+        <div
+          class="cursor-pointer grid grid-rows-1 grid-flow-col gap-5 mt-6 font-light"
+        >
+          <p class="hidden lg:block text-sm">Dashboard</p>
+          <p class="hidden lg:block text-sm">Add Fund Profile</p>
+          <p class="hidden lg:block text-sm">Add Startup Profile</p>
+          <p class="hidden lg:block text-sm">Add Mentor Profile</p>
+          <p class="hidden lg:block text-sm">My Account</p>
+          <p class="hidden lg:block text-sm">Logout</p>
+          <p class="hidden lg:block text-sm">Login</p>
+          <p class="hidden lg:block text-sm">Apply</p>
+        </div>
+      </div>
+      <div>
+        <img src="src/Screen Shot 2022-08-03 at 5.45 1.png" alt="" />
+      </div>
+      <div>
+        <p class="font-light text-2xl lg:text-[40px] lg:leading-[60px]">Pitch to</p>
+        <p class="font-medium text-4xl lg:text-[22px] lg:text-[64px] lg:leading-[96px]">
+          CoinDCX
+        </p>
+        <p class="lg:w-[80%] mt-[16px] text-lg lg:text-2xl">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also.
+        </p>
+      </div>
+      <div class="flex mt-[36px]">
+        <img src="src/calendar-icon.png" alt="" />
+        <p class="lg:text-[18px] text-base ml-[14px] opacity-[80%]">
+          26th July - 10th August
+        </p>
+      </div>
+      <div
+        class="mt-[32px] py-[12px] lg:w-[316px] bg-[#407BFF] cursor-pointer rounded-[12px] flex justify-center"
+      >
+        <p class="text-white lg:text-[20px]">Apply Now</p>
+      </div>
+
+      <div class="lg:flex lg:justify-center lg:mt-[130px]">
+        <div class="module lg:w-[50%] py-14 pr-14 text-center">
+          <p
+            class="lg:font-semibold text-3xl lg:text-[32px] opacity-[50%] lg:leading-[38px]"
+          >
+            Winner stands a chance
+          </p>
+          <p
+            class="lg:font-semibold text-3xl lg:text-[32px] opacity-[50%] lg:leading-[38px]"
+          >
+            pitch and win upto
+          </p>
+          <p
+            class="font-medium text-5xl lg:text-[132px] lg:leading-[160px] my-[10px]"
+          >
+            $1MM
+          </p>
+          <p
+            class="lg:font-semibold text-3xl lg:text-[32px] opacity-[50%] lg:leading-[38px]"
+          >
+            in funding from
+          </p>
+          <img src="src/Unfold-01 3.png" alt="" class="lg:mt-[120px] mt-10 mx-auto" />
+        </div>
+        <div class="lg:my-auto mt-10 lg:mt-0 lg:w-[50%] pl-10 text-center">
+          <p class="lg:font-semibold text-4xl lg:text-[32px] lg:leading-[38px]">upto</p>
+          <p class="font-semibold text-5xl lg:text-[112px] lg:leading-[135px]">
+            $25000
+          </p>
+          <p
+            class="lg:font-semibold text-2xl lg:text-[32px] opacity-[50%] lg:leading-[38px] mt-[10px]"
+          >
+            grants and mentorship to select
+          </p>
+          <p
+            class="lg:font-semibold text-2xl lg:text-[32px] opacity-[50%] lg:leading-[38px]"
+          >
+            founders via BeliefDAO
+          </p>
+        </div>
+      </div>
+      <div class="mt-[116px] flex justify-center">
+        <p class="font-semibold text-[32px] lg:opacity-[50%] leading-[38px]">
+          Mentoring Sessions
+        </p>
+      </div>
+      <div class="lg:flex lg:justify-between mt-[77px]">
+        <div>
+          <img
+            src="src/unsplash_rDEOVtE7vOs.png"
+            alt=""
+            class="w-[250px] h-[250px] mx-auto"
+          />
+          <p
+            class="font-medium text-[20px] mt-[14px] leading-[28px] text-center"
+          >
+            Dharmi Kumbhani
+          </p>
+        </div>
+        <div>
+          <img
+            src="src/unsplash_khV4fTy6-D8.png"
+            alt=""
+            class="w-[250px] h-[250px] mx-auto"
+          />
+          <p
+            class="font-medium text-[20px] mt-[14px] leading-[28px] text-center"
+          >
+            Dharmi Kumbhani
+          </p>
+        </div>
+        <div>
+          <img
+            src="src/unsplash_d2MSDujJl2g.png"
+            alt=""
+            class="w-[250px] h-[250px] mx-auto"
+          />
+          <p
+            class="font-medium text-[20px] mt-[14px] leading-[28px] text-center"
+          >
+            Dharmi Kumbhani
+          </p>
+        </div>
+        <div class="lg:hidden">
+            <img
+            src="src/unsplash_93PKK4O6WBo.png"
+              alt=""
+              class="w-[250px] h-[250px] mx-auto"
+            />
+            <p
+              class="font-medium text-[20px] mt-[14px] leading-[28px] text-center"
+            >
+              Dharmi Kumbhani
+            </p>
+          </div>
+      </div>
+      <div class="lg:mt-[56px] flex justify-left">
+        <div class="hidden lg:block ">
+          <img
+            src="src/unsplash_93PKK4O6WBo.png"
+            alt=""
+            class="w-[250px] h-[250px]"
+          />
+          <p
+            class="font-medium text-[20px] mt-[14px] leading-[28px] text-center"
+          >
+            Dharmi Kumbhani
+          </p>
+        </div>
+      </div>
+      <div class="mt-[150px]">
+        <p class="lg:font-normal text-2xl lg:text-[40px] lg:leading-[60px]">
+          Frequently Asked Questions
+        </p>
+        <div
+          class="lg:text-[24px] text-xl lg:leading-[36px] mt-[24px] lg:w-[80%] text-left"
+        >
+          <p>
+            Q. I have an idea but not implemented it yet, can I still apply?
+            Yes. It’s recommended that you have a core team assembled already
+            that is able to carry out your idea and a clear articulation on your
+            path forward prior to applying.Remember that we are looking to fund
+            the best crypto projects and founders in India, and companies will
+            be evaluated against that bar.
+          </p>
+          <p class="lg:mt-14 mt-7">
+            Q. Can I attend the event in a virtual capacity? If your project is
+            selected to pitch, we will require your attendance in person. The
+            pitch day will be held in Bangalore on August 26th 2022.
+          </p>
+          <p class="lg:mt-14 mt-7">
+            Q. How much funding can I receive? We will provide up to $1M in
+            funding. Note this is the maximum possible, individual investments
+            may be less and will be decided on a case by case basis.
+          </p>
+          <p class="lg:mt-14 mt-7">
+            Q. What industry/ sector are the startups from? Web3 Startups from
+            all sectors and industries are encouraged to join.
+          </p>
+          <p class="lg:mt-14 mt-7">
+            Q. Do I have to build on a specific chain to be eligible? No, we
+            support builders building on all chains, with brownie points for
+            projects with inter-chain operability.
+          </p>
+          <p class="lg:mt-14 mt-7">
+            Q. How can I improve my chances of securing a grant? Consistent
+            weekly updates on your buidl.so startup profile go a long way in
+            showing a founder's perseverance. Proof of progress is at the centre
+            of our evaluation process.
+          </p>
+        </div>
+      </div>
+      <div
+        class="lg:mt-[107px] mt-7 mb-7 lg:mb-[170px] py-[12px] lg:w-[316px] bg-[#407BFF] cursor-pointer rounded-[12px] flex justify-center"
+      >
+        <p class="text-white lg:text-[20px]">Apply Now</p>
+      </div>
+    </div>
+    <div class="lg:mx-[80px] lg:pt-14 pt-7 mb-7 lg:mb-36 border-t-[1px]">
+      <div class="pl-7">
+        <p
+          class="cursor-pointer text-[8px] bg-[#750ef0] inline rounded text-white px-[4px]"
+        >
+          ALPHA
+        </p>
+        <p class="cursor-pointer text-2xl leading-[25px]">buidl.so</p>
+      </div>
+    </div>
+  </body>
+</html>
